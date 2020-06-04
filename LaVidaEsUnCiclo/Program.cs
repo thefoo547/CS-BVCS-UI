@@ -45,6 +45,17 @@ namespace LaVidaEsUnCiclo
                 r = Convert.ToInt32(Console.ReadLine());
             } while (r < 0);
             Console.WriteLine("Hello World!");
+
+            public static long factorial(int n){
+                if(n==1){
+                    return 1;
+                }
+                else
+                {
+                    return factorial(n-1);
+                }
+            }
+
             */
         }
     }
